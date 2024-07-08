@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 # Create an output directory if it doesn't exist
 output_dir = "/output"
 os.makedirs(output_dir, exist_ok=True)
+# cHNAGE
 
 # Retrieve stock price data for Apple Inc. (AAPL) for the last 5 years
 stock = yf.Ticker("AAPL")
